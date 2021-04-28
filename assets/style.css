@@ -1,0 +1,74 @@
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        background: #8f9397;
+        padding: 2.5%;
+  }
+  
+  h1 {
+    margin: 0 0 0 .45em;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: darkred;
+    width: 300px;
+    height: 50px;
+    color: #8f9397;
+    vertical-align: middle;
+  }
+
+      h1 ul {
+          text-decoration: none;
+          letter-spacing: .25rem;
+      }
+  
+  ul {
+    display: flex;
+    padding-right: 25px;
+  }
+  
+  li {
+    display: block;
+    padding: 1em;
+    color: white;   
+  }
+
+  li a {
+      color: white;
+      font-size: 20px;
+  }
+  
+  li a:hover {
+      background: blue;
+  }
+
+  .banner {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url(./images/pexels-pixabay-270360\ \(1\).jpg);
+        background-size: cover;
+        background-position: center;
+    }
+  
+
+  section  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section div {
+      display: flex;
+      flex: 1;
+      padding-left: 60px;
+  }
+
+  section div p {
+    display: flex;
+    flex: 3;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
